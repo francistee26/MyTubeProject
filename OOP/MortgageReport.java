@@ -22,7 +22,7 @@ public class MortgageReport {
         System.out.println("PAYMENT SCHEDULE\n----------------");
         for (double balance : calculator.getRemainingBalances())
             System.out.println(currency.format(balance));
-
+      
     }
 
 }

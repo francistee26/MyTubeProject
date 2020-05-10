@@ -18,7 +18,7 @@ public class Console {
             System.out.println("Enter a value between " + min + " and " + max);
             scanner.close();
         }
-        return value;
+        return value;  
     }
 
 }

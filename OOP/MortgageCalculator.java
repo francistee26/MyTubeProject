@@ -48,7 +48,7 @@ public class MortgageCalculator {
     }
 
     private short getNumberOfPayments() {
-        return (short) (years * MortgageCalculator.MONTHS_IN_YEAR);
+        return (short) (years * MortgageCalculator.MONTHS_IN_YEAR);      
     }
 
     private float getMonthlyInterest() {
