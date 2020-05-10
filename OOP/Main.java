@@ -1,7 +1,4 @@
 public class Main {
-    static final byte MONTHS_IN_YEAR = 12;
-    static final byte PERCENT = 100;
-
     public static void main(String[] args) {
 
         final int lowerLimiter = 1;
@@ -12,9 +9,9 @@ public class Main {
         byte years = (byte) Console.readNumber("Period (Years): ", lowerLimiter, upperLimiter);
 
         var calculator = new MortgageCalculator(principal, annualInterest, years);
-
-        new MortgageReport(calculator).printMortgage();
-        new MortgageReport(calculator).printPaymentSchedule();
+        var report = new MortgageReport(calculator);
+        report.printMortgage();
+        report.printPaymentSchedule();
 
     }
 
