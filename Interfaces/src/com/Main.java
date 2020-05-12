@@ -7,6 +7,6 @@ public class Main {
         report.show(calculator);
 
         // report.setCalculator(new TaxCalculator2021());
-        report.show(new TaxCalculator2021());
+        report.show(new TaxCalculator2021());   
     }
 }
